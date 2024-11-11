@@ -38,7 +38,7 @@ export const experiencesData = [
     description:
       "I did a 1-month internship where I worked on a project using Angular. I learned a lot about Angular and how to build web applications. I also gained experience working in a team environment.",
     icon: React.createElement(FaAngular),
-    date: "June 2024 - July 2024",
+    date: "July 2024 - August 2024",
   },
 ] as const;
 
