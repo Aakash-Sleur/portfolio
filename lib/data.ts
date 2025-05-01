@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAngular } from "react-icons/fa";
+import { FaAngular, FaReact } from "react-icons/fa";
 import eat360Img from "@/public/eat360.png";
 import socialImg from "@/public/social-media.png";
 import adminImg from "@/public/admin-dashboard.png";
@@ -36,9 +36,17 @@ export const experiencesData = [
     title: "Angular Jr. Developer Intern",
     location: "IconX Technologies, Tirunelveli, Tamil Nadu",
     description:
-      "I did a 1-month internship where I worked on a project using Angular. I learned a lot about Angular and how to build web applications. I also gained experience working in a team environment.",
-    icon: React.createElement(FaAngular),
+      "Completed a 1-month internship where I contributed to a project using Angular. Gained hands-on experience in building web applications and collaborating in a team environment.",
+    icon: "https://media.licdn.com/dms/image/v2/C560BAQERK6yYFs1teg/company-logo_200_200/company-logo_200_200/0/1640842663757?e=1751500800&v=beta&t=I2uHGnZkQJ_9zCIEWzrx9Gu9-t2RegMnVLzg8xr1EIE",
     date: "July 2024 - August 2024",
+  },
+  {
+    title: "Full-Stack Developer (MERN) Intern",
+    location: "Settyl Tech India Private Limited, Chennai, Tamil Nadu",
+    description:
+      "Currently undertaking a 6-month internship as a Full-Stack Developer, working extensively with the MERN stack. Contributed to developing and maintaining scalable web applications while enhancing skills in both front-end and back-end development.",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQF6N4XuWUa4DQ/company-logo_100_100/company-logo_100_100/0/1664347696580/settyl_corporation_logo?e=1751500800&v=beta&t=oJR4LXUGCQRv2DXvhgSAyrnjVjw-w87uyN37m0XiDiI",
+    date: "December 2024 - Present",
   },
 ] as const;
 
@@ -76,21 +84,20 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
+  "Express.js",
   "Node.js",
+  "MongoDB",
+  "Java",
+  "JavaScript",
+  "TypeScript",
+  "Python",
+  "HTML",
+  "CSS",
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
-  "Express.js",
-  "Express",
   "PostgreSQL",
-  "Python",
-  "Java",
   "Docker",
 ] as const;
