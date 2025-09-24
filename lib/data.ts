@@ -1,6 +1,7 @@
 import React from "react";
 import { FaAngular, FaReact } from "react-icons/fa";
 import eat360Img from "@/public/eat360.png";
+import prepalyzeImg from "@/public/prepalyze.png";
 import socialImg from "@/public/social-media.png";
 import adminImg from "@/public/admin-dashboard.png";
 
@@ -37,20 +38,36 @@ export const experiencesData = [
     location: "IconX Technologies, Tirunelveli, Tamil Nadu",
     description:
       "Completed a 1-month internship where I contributed to a project using Angular. Gained hands-on experience in building web applications and collaborating in a team environment.",
-    icon: "https://media.licdn.com/dms/image/v2/C560BAQERK6yYFs1teg/company-logo_200_200/company-logo_200_200/0/1640842663757?e=1751500800&v=beta&t=I2uHGnZkQJ_9zCIEWzrx9Gu9-t2RegMnVLzg8xr1EIE",
+    icon: "https://angular.dev/assets/images/press-kit/angular_icon_gradient.gif",
     date: "July 2024 - August 2024",
   },
   {
     title: "Full-Stack Developer (MERN) Intern",
     location: "Settyl Tech India Private Limited, Chennai, Tamil Nadu",
     description:
-      "Currently undertaking a 6-month internship as a Full-Stack Developer, working extensively with the MERN stack. Contributed to developing and maintaining scalable web applications while enhancing skills in both front-end and back-end development.",
-    icon: "https://media.licdn.com/dms/image/v2/D560BAQF6N4XuWUa4DQ/company-logo_100_100/company-logo_100_100/0/1664347696580/settyl_corporation_logo?e=1751500800&v=beta&t=oJR4LXUGCQRv2DXvhgSAyrnjVjw-w87uyN37m0XiDiI",
+      "Successfully completed a 6-month internship as a Full-Stack Developer, working extensively with the MERN stack. Contributed to the development and maintenance of scalable web applications while enhancing skills in both front-end and back-end development.",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQF6N4XuWUa4DQ/company-logo_200_200/company-logo_200_200/0/1664347696580/settyl_corporation_logo?e=2147483647&v=beta&t=QRjVHcV6Suco-SQMKWQUM8HGkKK4X-VsHDdKqWeFHeI",
     date: "December 2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Prepalyze - Exam taking and question generation platform",
+    description:
+      "A platform where users can take exams and generate questions for them. Built with React for the front-end, and Express.js and Node.js for the back-end.",
+    tags: [
+      "React",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "Redis",
+      "MongoDB",
+      "BullMQ",
+    ],
+    imageUrl: prepalyzeImg,
+    link: "https://prepalyze.com/",
+  },
   {
     title: "Eat360",
     description:
@@ -73,14 +90,6 @@ export const projectsData = [
     imageUrl: adminImg,
     link: "https://admin-dashboard-phi-one.vercel.app/",
   },
-  {
-    title: "Social Media Application",
-    description:
-      "A social media application where users can share posts, like and comment on posts, and follow other users.",
-    tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Prisma"],
-    imageUrl: socialImg,
-    link: "https://threads-cyan.vercel.app/",
-  },
 ] as const;
 
 export const skillsData = [
@@ -90,6 +99,7 @@ export const skillsData = [
   "Node.js",
   "MongoDB",
   "Java",
+  "Golang",
   "JavaScript",
   "TypeScript",
   "Python",
@@ -100,4 +110,5 @@ export const skillsData = [
   "Prisma",
   "PostgreSQL",
   "Docker",
+  "Rust"
 ] as const;

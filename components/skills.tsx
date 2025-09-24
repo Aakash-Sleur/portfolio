@@ -8,9 +8,11 @@ import { motion } from "framer-motion";
 import {
   SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNextdotjs,
   SiNodedotjs, SiGit, SiTailwindcss, SiPrisma, SiMongodb, SiExpress,
-  SiPostgresql, SiPython, SiDocker
+  SiPostgresql, SiPython, SiDocker,
+  SiRust
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 
 const iconComponents = {
   HTML: SiHtml5,
@@ -30,6 +32,8 @@ const iconComponents = {
   Python: SiPython,
   Java: FaJava,
   Docker: SiDocker,
+  Golang: FaGolang,
+  Rust: SiRust
 };
 
 const fadeInAnimationVariants = {

@@ -19,21 +19,50 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in <span className="font-medium text-blue-600">Computer Science 🎓</span>, I decided to further my passion for programming by pursuing a <span className="font-medium text-blue-600">Master’s in Computer Science 📚</span>.
-        I learned <span className="font-medium text-blue-600">full-stack web development 🌐</span> and Java ☕. <span className="italic text-gray-600">
-          My favorite part of programming</span> is learning new programming paradigms and problem-solving 🧩.
-        <br /> I <span className="text-red-600 ">love ❤️</span> the feeling of finally figuring out a solution to a problem. My core stack includes <span className="font-medium text-blue-600">MERN and Next.js 💻</span>.
-        Additionally, I am familiar with TypeScript, PostgreSQL 🗄️, and Java.
-        I am always looking to learn new technologies and am currently seeking a <span className="font-medium text-blue-600">full-time position 💼</span> as a software developer.
+        I have completed my{" "}
+        <span className="font-medium text-blue-600">
+          Master’s in Computer Science 🎓
+        </span>
+        , where I strengthened my passion for programming and software
+        development. During this journey, I gained hands-on experience through a{" "}
+        <span className="font-medium text-blue-600">6-month internship 💼</span>{" "}
+        as a Full-Stack Developer and{" "}
+        <span className="font-medium text-blue-600">
+          2 months of experience as a Lead Developer 🚀
+        </span>
+        . I worked extensively with{" "}
+        <span className="font-medium text-blue-600">
+          full-stack web development 🌐
+        </span>
+        , particularly the{" "}
+        <span className="font-medium text-blue-600">MERN and Next.js 💻</span>{" "}
+        stacks, while also enhancing my skills in Java ☕, TypeScript, and
+        PostgreSQL 🗄️.
+        <span className="italic text-gray-600">
+          {" "}
+          My favorite part of programming
+        </span>{" "}
+        is learning new paradigms and solving challenging problems 🧩.
+        <br /> I <span className="text-red-600 ">love ❤️</span> the feeling of
+        finally figuring out a solution. I am always eager to learn new
+        technologies and am currently seeking a{" "}
+        <span className="font-medium text-blue-600">full-time position 💼</span>{" "}
+        as a Software Developer.
       </p>
 
       <p>
-        <span className="italic text-gray-600">When I'm not coding</span>, I enjoy playing video games 🎮, reading books 📖, exploring new things 🧭, watching anime 🎥, and working out 💪.
-        I also enjoy <span className="font-medium text-blue-600">learning new things ✨</span>.
-        Currently, I am exploring <span className="font-medium text-blue-600">human psychology 🧠 and business 📊</span>
+        <span className="italic text-gray-600">When I'm not coding</span>, I
+        enjoy playing video games 🎮, reading books 📖, exploring new things 🧭,
+        watching anime 🎥, and working out 💪. I also enjoy{" "}
+        <span className="font-medium text-blue-600">
+          learning new things ✨
+        </span>
+        . Currently, I am exploring{" "}
+        <span className="font-medium text-blue-600">
+          human psychology 🧠 and business 📊
+        </span>
+        .
       </p>
-
-
     </motion.section>
   );
 }
